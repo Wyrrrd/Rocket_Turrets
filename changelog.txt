@@ -1,0 +1,29 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.0
+Date: 18. 2. 2020
+  Changes:
+    - Ported to 0.18
+    - Added german locale
+    - Added changelog file
+    - Renamed mod
+    - Matched versioning to Factorio versions
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+  Changes:
+    - Factorio 0.17 update, with HR rework of entites. Have fun !
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+  Changes:
+    - Added variable in reciples, should fix recipe error. Should use now base game electronic which will be replaced when using Bob Electronic. In theory ... xD
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+  Changes:
+    - Updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+  Changes:
+    - Balance for tech req and balance for attack speed
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+  Info:
+    - Release
