@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 21. 2. 2020
+  Changes:
+    - Merged Bob version (this one) with vanilla version
+      (will load tiered turrets, when bobplates is present)
+---------------------------------------------------------------------------------------------------
 Version: 0.18.0
 Date: 18. 2. 2020
   Changes:

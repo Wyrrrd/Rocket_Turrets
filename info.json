@@ -1,11 +1,11 @@
 {
     "name": "Rocket_Turrets",
-    "version": "0.18.0",
+    "version": "0.18.1",
     "title": "RocketTurrets",
     "author": "Wyrrrd",
     "contact": "",
     "homepage": "",
     "factorio_version": "0.18",
-    "dependencies": ["base >= 0.18.0", "boblibrary >= 0.18.0", "bobplates >= 0.18.0", "bobelectronics >= 0.18.0"],
+    "dependencies": ["base >= 0.18.0", "? bobplates >= 0.18.1"],
     "description": "Adds rocket turrets"
 }
