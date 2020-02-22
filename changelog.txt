@@ -1,18 +1,25 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+Date: 22. 2. 2020
+  Changes:
+    - Matched changelog file format to what Factorio expects
+---------------------------------------------------------------------------------------------------
 Version: 0.18.1
 Date: 21. 2. 2020
-  Changes:
-    - Merged Bob version (this one) with vanilla version
-      (will load tiered turrets, when bobplates is present)
+  Features:
+    - Added vanilla turret from Rocket Turrets Vanilla Version
+    - Added check for used items and technology from Bob's Metals, Chemicals and Intermediates to determine if tiered or vanilla turrets should be loaded
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.0
 Date: 18. 2. 2020
   Changes:
     - Ported to 0.18
-    - Added german locale
     - Added changelog file
-    - Renamed mod
+    - Renamed mod for upload in mod portal
     - Matched versioning to Factorio versions
+
+  Locale:
+    - Added german locale
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.5
   Changes:
