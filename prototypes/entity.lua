@@ -18,6 +18,20 @@ return
       axially_symmetrical = false,
 	  run_mode = inputs.run_mode and inputs.run_mode or "forward",
       shift = { 0.25, -0.5 },
+	  hr_version =
+	  {
+      filename = "__Rocket_Turrets__/graphics/entity/hr-rocket-sheet.png",
+      priority = "medium",
+      scale = 0.5,
+      width = 144,
+      height = 160,
+      direction_count = inputs.direction_count and inputs.direction_count or 64,
+      frame_count = 1,
+      line_length = inputs.line_length and inputs.line_length or 16,
+      axially_symmetrical = false,
+	  run_mode = inputs.run_mode and inputs.run_mode or "forward",
+      shift = { 0.25, -0.5 },
+	  }
     }
   }
 }

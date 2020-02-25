@@ -1,8 +1,14 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.2
-Date: 22. 2. 2020
+Date: 25. 2. 2020
   Changes:
     - Matched changelog file format to what Factorio expects
+
+  Graphics:
+    - Added HR textures for vanilla rocket turret entity (now also in lame gray)
+
+  Locale:
+    - Added translated mod description
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.1
 Date: 21. 2. 2020
