@@ -1,5 +1,5 @@
 # Rocket Turrets
-![mod thumbnail](https://raw.githubusercontent.com/Wyrrrd/Rocket_Turrets/master/thumbnail.png)
+<img src=https://raw.githubusercontent.com/Wyrrrd/Rocket_Turrets/master/thumbnail.png width="128" height="128">
 
 (Please note: This is a quick and dirty port to 0.18. As soon as the original is ported to 0.18, this will be removed.)
 
