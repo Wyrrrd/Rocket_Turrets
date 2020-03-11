@@ -1,6 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.3
+Date: 2020-03-11
+  Changes:
+    - Moved integrations into separate directory
+    - Simplified check for bobplates
+    - Merged MK1 turret with vanilla turret (except for colour, fixes losing all turrets on adding bobplates)
+---------------------------------------------------------------------------------------------------
 Version: 0.18.2
-Date: 25. 2. 2020
+Date: 2020-02-25
   Changes:
     - Matched changelog file format to what Factorio expects
 
@@ -11,13 +18,13 @@ Date: 25. 2. 2020
     - Added translated mod description
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.1
-Date: 21. 2. 2020
+Date: 2020-02-21
   Features:
     - Added vanilla turret from Rocket Turrets Vanilla Version
     - Added check for used items and technology from Bob's Metals, Chemicals and Intermediates to determine if tiered or vanilla turrets should be loaded
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.0
-Date: 18. 2. 2020
+Date: 2020-02-18
   Changes:
     - Ported to 0.18
     - Added changelog file

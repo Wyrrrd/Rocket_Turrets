@@ -1,0 +1,18 @@
+{
+    "entity":
+    [
+        ["rocket-turret-mk1", "rocket-turret"]
+    ],
+    "item":
+    [
+        ["rocket-turret-mk1", "rocket-turret"]
+    ],
+    "recipe":
+    [
+        ["rocket-turret-mk1", "rocket-turret"]
+    ],
+    "technology":
+    [
+        ["rocket-turret-mk1", "rocket-turret"]
+    ]
+}
