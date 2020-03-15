@@ -7,13 +7,14 @@ rocket_mk2_recipe = {
   energy_required = 10,
   ingredients =
   {
-    {"rocket-turret-mk1", 1},
+    {"rocket-turret", 1},
     {"steel-gear-wheel", 10},
     {"steel-plate", 20},
     {"battery", 5},	
     {"electronic-circuit", 5},
   },
   result = "rocket-turret-mk2",
+	order = "c-a"
 }
 
 rocket_mk3_recipe = {
@@ -29,6 +30,7 @@ rocket_mk3_recipe = {
     {"advanced-circuit", 20},
   },
   result = "rocket-turret-mk3",
+	order = "c-a"
 }
 
 rocket_mk4_recipe = {
@@ -44,6 +46,7 @@ rocket_mk4_recipe = {
     {"processing-unit", 20},
   },
   result = "rocket-turret-mk4",
+	order = "c-a"
 }
 
 rocket_mk5_recipe1 = {
@@ -59,6 +62,7 @@ rocket_mk5_recipe1 = {
     {"processing-unit", 20},
   },
   result = "rocket-turret-mk5",
+	order = "c-a"
 }
 
 rocket_mk5_recipe2 = {
@@ -74,4 +78,5 @@ rocket_mk5_recipe2 = {
     {"advanced-processing-unit", 20},
   },
   result = "rocket-turret-mk5",
+	order = "c-a"
 }

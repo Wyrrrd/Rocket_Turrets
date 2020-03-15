@@ -44,7 +44,7 @@ rocket_entity = {
   icon = "__Rocket_Turrets__/graphics/icon/turret-rocket-icon.png",
   icon_size = 32,
   flags = {"placeable-player", "player-creation"},
-  minable = {mining_time = 0.7, result = "rocket-turret-mk1"},
+  minable = {mining_time = 0.7, result = "rocket-turret"},
   max_health = 400,
   corpse = "small-remnants",
   collision_box = {{-0.7, -0.7 }, {0.7, 0.7}},

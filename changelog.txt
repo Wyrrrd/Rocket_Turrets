@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.3
-Date: 2020-03-11
+Date: 2020-03-16
   Changes:
     - Moved integrations into separate directory
     - Simplified check for bobplates
@@ -10,10 +10,8 @@ Version: 0.18.2
 Date: 2020-02-25
   Changes:
     - Matched changelog file format to what Factorio expects
-
   Graphics:
     - Added HR textures for vanilla rocket turret entity (now also in lame gray)
-
   Locale:
     - Added translated mod description
 ---------------------------------------------------------------------------------------------------
@@ -30,7 +28,6 @@ Date: 2020-02-18
     - Added changelog file
     - Renamed mod for upload in mod portal
     - Matched versioning to Factorio versions
-
   Locale:
     - Added german locale
 ---------------------------------------------------------------------------------------------------

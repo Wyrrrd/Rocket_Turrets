@@ -12,7 +12,7 @@ rocket_mk2_tech = {
 	},
 	prerequisites =
 	{
-		"rocket-turret-mk1",
+		"rocket-turret",
 	},
 	unit =
 	{

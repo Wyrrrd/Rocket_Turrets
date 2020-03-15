@@ -173,6 +173,7 @@ rocket_mk2_entity = {
   folding_animation = rocket_mk2_sheet{direction_count = 4, line_length = 1, run_mode = "backward"},
   
   vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+  fast_replaceable_group = "turret",
   
   attack_parameters =
   {
@@ -233,6 +234,7 @@ rocket_mk3_entity = {
   folding_animation = rocket_mk3_sheet{direction_count = 4, line_length = 1, run_mode = "backward"},
   
   vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+  fast_replaceable_group = "turret",
   
   attack_parameters =
   {
@@ -293,6 +295,7 @@ rocket_mk4_entity = {
   folding_animation = rocket_mk4_sheet{direction_count = 4, line_length = 1, run_mode = "backward"},
   
   vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+  fast_replaceable_group = "turret",
   
   attack_parameters =
   {
@@ -353,6 +356,7 @@ rocket_mk5_entity = {
   folding_animation = rocket_mk5_sheet{direction_count = 4, line_length = 1, run_mode = "backward"},
   
   vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+  fast_replaceable_group = "turret",
   
   attack_parameters =
   {

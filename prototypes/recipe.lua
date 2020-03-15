@@ -13,4 +13,5 @@ rocket_recipe = {
     {"advanced-circuit", 15},
   },
   result = "rocket-turret",
+	order = "c-a"
 }
