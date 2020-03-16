@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.3
 Date: 2020-03-16
+  Features:
+    - Added Informatron integration and dynamic informational page (also depending on bobplates)
   Changes:
     - Moved integrations into separate directory
     - Simplified check for bobplates

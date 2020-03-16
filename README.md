@@ -8,9 +8,10 @@ This mod adds a rocket turret to make rockets great again™. Sadly you would on
 This mod should just work, but I specifically added compatibility for the following mods:
 
 + [Bob's Metals, Chemicals and Intermediates](https://mods.factorio.com/mod/bobplates) - more turrets (MK2-MK5)
++ [Informatron](https://mods.factorio.com/mod/informatron) - informational page to explain functions and dangers
 
 ### Locale
-If you want to contribute by translating this mod, you can view the existing translations [here](https://github.com/Wyrrrd/Rocket_Turrets/tree/master/locale). I'd be happy to add your language and credits to the next release.
+If you want to contribute by translating this mod, you can view the existing translations [here](https://github.com/Wyrrrd/Rocket_Turrets/tree/master/locale). I'd be happy to add your language and credits to the next release. Especially the polish translation is in need of a proper Informatron page.
 
 ### Credits
 - Thanks to [Kamsta99](https://mods.factorio.com/user/kamsta99) for the [original mod](https://mods.factorio.com/mod/RocketTurrets) and the [vanilla version](https://mods.factorio.com/mod/RocketTurretsNonBob).

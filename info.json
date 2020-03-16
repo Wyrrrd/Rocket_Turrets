@@ -6,7 +6,8 @@
     "factorio_version": "0.18",
     "dependencies": [
         "base >= 0.18.0",
-        "? bobplates >= 0.18.1"
+        "? bobplates >= 0.18.1",
+        "? informatron >= 0.1.5"
 	],
     "description": "Adds rocket turrets"
 }

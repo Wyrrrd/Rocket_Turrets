@@ -14,3 +14,4 @@ data:extend({
 
 -- integrations
 require("integrations.bobplates.data")
+require("integrations.informatron.data")
