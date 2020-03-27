@@ -13,5 +13,5 @@ This mod should just work, but I specifically added compatibility for the follow
 ### Locale
 If you want to contribute by translating this mod, you can view the existing translations [here](https://github.com/Wyrrrd/Rocket_Turrets/tree/master/locale). I'd be happy to add your language and credits to the next release. Especially the polish translation is in need of a proper Informatron page.
 
-### Credits
+### Credit
 - Thanks to [Kamsta99](https://mods.factorio.com/user/kamsta99) for the [original mod](https://mods.factorio.com/mod/RocketTurrets) and the [vanilla version](https://mods.factorio.com/mod/RocketTurretsNonBob).
