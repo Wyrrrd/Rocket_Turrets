@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.4
+Date: 2020-03-29
+  Features:
+    - Added Factorio Wiki Mod integration and dynamic informational page (also depending on bobplates)
+---------------------------------------------------------------------------------------------------
 Version: 0.18.3
 Date: 2020-03-16
   Features:

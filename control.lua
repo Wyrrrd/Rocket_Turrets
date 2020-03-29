@@ -1,3 +1,4 @@
 --control.lua
 
-require("integrations.informatron.control")
+require("integrations.info.informatron.control")
+require("integrations.info.wiki.control")
