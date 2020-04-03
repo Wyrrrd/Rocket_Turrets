@@ -1,7 +1,7 @@
 rocket_mk2_tech = {
 	type = "technology",
 	name = "rocket-turret-mk2",
-	icon = "__Rocket_Turrets__/integrations/bobplates/graphics/technology/rocket-turret-mk2.png",
+	icon = "__Rocket_Turrets__/graphics/technology/rocket-turret-mk2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -32,7 +32,7 @@ rocket_mk2_tech = {
 rocket_mk3_tech = {
 	type = "technology",
 	name = "rocket-turret-mk3",
-	icon = "__Rocket_Turrets__/integrations/bobplates/graphics/technology/rocket-turret-mk3.png",
+	icon = "__Rocket_Turrets__/graphics/technology/rocket-turret-mk3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -44,7 +44,6 @@ rocket_mk3_tech = {
 	prerequisites =
 	{
 		"rocket-turret-mk2",
-		"invar-processing",
 	},
 	unit =
 	{
@@ -64,7 +63,7 @@ rocket_mk3_tech = {
 rocket_mk4_tech = {
 	type = "technology",
 	name = "rocket-turret-mk4",
-	icon = "__Rocket_Turrets__/integrations/bobplates/graphics/technology/rocket-turret-mk4.png",
+	icon = "__Rocket_Turrets__/graphics/technology/rocket-turret-mk4.png",
 	icon_size = 128,
 	effects =
 	{
@@ -76,7 +75,6 @@ rocket_mk4_tech = {
 	prerequisites =
 	{
 		"rocket-turret-mk3",
-		"titanium-processing",
 	},
 	unit =
 	{
@@ -96,7 +94,7 @@ rocket_mk4_tech = {
 rocket_mk5_tech = {
 	type = "technology",
 	name = "rocket-turret-mk5",
-	icon = "__Rocket_Turrets__/integrations/bobplates/graphics/technology/rocket-turret-mk5.png",
+	icon = "__Rocket_Turrets__/graphics/technology/rocket-turret-mk5.png",
 	icon_size = 128,
 	effects =
 	{
@@ -108,7 +106,6 @@ rocket_mk5_tech = {
 	prerequisites =
 	{
 		"rocket-turret-mk4",
-		"nitinol-processing",
 	},
 	unit =
 	{

@@ -1,52 +1,22 @@
-require("integrations.bobplates.prototypes.entity")
-require("integrations.bobplates.prototypes.item")
-require("integrations.bobplates.prototypes.recipe")
-require("integrations.bobplates.prototypes.technology")
+require("integrations.bobplates.ingredients")
 
-if mods["bobplates"] then
-    -- if bobplates enabled, modify mk1 turret
+local add_prerequisite = function (tech, prereq)
+    table.insert(data.raw.technology[tech].prerequisites,prereq)
+end
+
+if mods["bobplates"] and mods["bobwarfare"] then
+    -- if bobplates enabled, change tiered turret recipes and tech (if existing)
     
-    data.raw["ammo-turret"]["rocket-turret"].folded_animation.layers[1].filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].folded_animation.layers[1].hr_version["filename"] = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].folding_animation.layers[1].filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].folding_animation.layers[1].hr_version["filename"] = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].prepared_animation.layers[1].filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].prepared_animation.layers[1].hr_version["filename"] = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].preparing_animation.layers[1].filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].preparing_animation.layers[1].hr_version["filename"] = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].attacking_animation.layers[1].filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].attacking_animation.layers[1].hr_version["filename"] = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk1-sheet.png"
-    data.raw["ammo-turret"]["rocket-turret"].fast_replaceable_group = "turret"
-    data.raw["item"]["rocket-turret"].icon = "__Rocket_Turrets__/integrations/bobplates/graphics/icon/turret-rocket-mk1-icon.png"
-    data.raw["technology"]["rocket-turret"].icon = "__Rocket_Turrets__/integrations/bobplates/graphics/technology/rocket-turret-mk1.png"
+    data.raw.recipe["rocket-turret-mk2"].ingredients = rocket_mk2_ingred
 
-    -- if bobplates enabled, load tiered turrets
-    
-    data:extend({
-        rocket_mk2_entity,
-        rocket_mk2_item,
-        rocket_mk2_recipe,
-        rocket_mk2_tech,
+    data.raw.recipe["rocket-turret-mk3"].ingredients = rocket_mk3_ingred
+    table.insert(data.raw.technology["rocket-turret-mk3"].prerequisites,"zinc-processing")
+    table.insert(data.raw.technology["rocket-turret-mk3"].prerequisites,"invar-processing")
 
-        rocket_mk3_entity,
-        rocket_mk3_item,
-        rocket_mk3_recipe,
-        rocket_mk3_tech,
+    data.raw.recipe["rocket-turret-mk4"].ingredients = rocket_mk4_ingred
+    table.insert(data.raw.technology["rocket-turret-mk4"].prerequisites,"titanium-processing")
 
-        rocket_mk4_entity,
-        rocket_mk4_item,
-        rocket_mk4_recipe,
-        rocket_mk4_tech,
+    data.raw.recipe["rocket-turret-mk5"].ingredients = rocket_mk5_ingred
+    table.insert(data.raw.technology["rocket-turret-mk5"].prerequisites,"nitinol-processing")
 
-        rocket_mk5_entity,
-        rocket_mk5_item,
-        -- recipe below
-        rocket_mk5_tech
-    })
-
-    if data.raw.item["advanced-processing-unit"] then
-        data:extend({rocket_mk5_recipe2})
-    else
-        data:extend({rocket_mk5_recipe1})
-    end
 end

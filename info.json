@@ -1,12 +1,14 @@
 {
     "name": "Rocket_Turrets",
-    "version": "0.18.4",
+    "version": "0.18.5",
     "title": "RocketTurrets",
     "author": "Wyrrrd",
     "factorio_version": "0.18",
     "dependencies": [
         "base >= 0.18.0",
         "? bobplates >= 0.18.1",
+        "? bobwarfare >= 0.18.3",
+        "? Booktorio >= 1.0.0",
         "? informatron >= 0.1.5",
         "? wiki >= 0.18.01"
 	],

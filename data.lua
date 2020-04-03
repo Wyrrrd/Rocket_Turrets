@@ -13,6 +13,8 @@ data:extend({
 })
 
 -- integrations
+require("integrations.bobwarfare.data")
 require("integrations.bobplates.data")
-require("integrations.info.informatron.data")
-require("integrations.info.wiki.data")
+require("integrations.informatron.data")
+require("integrations.wiki.data")
+require("integrations.Booktorio.data")

@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.5
+Date: 2020-04-02
+  Changes:
+    - Reworked integration with Bob's, now bobwarfare adds tiered turrets and bobplates replaces recipe ingredients (to be more in line with Bob's)
+    - Added Booktorio integration and dynamic informational page (also depending on bobwarfare)
+    - Moved some files around
+---------------------------------------------------------------------------------------------------
 Version: 0.18.4
 Date: 2020-03-29
   Features:

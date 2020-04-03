@@ -1,4 +1,5 @@
 --control.lua
 
-require("integrations.info.informatron.control")
-require("integrations.info.wiki.control")
+require("integrations.informatron.control")
+require("integrations.wiki.control")
+require("integrations.Booktorio.control")

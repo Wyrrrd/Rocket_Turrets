@@ -6,7 +6,7 @@ return
   layers = 
   {
     {
-      filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk2-sheet.png",
+      filename = "__Rocket_Turrets__/graphics/entity/rocket-mk2-sheet.png",
       priority = "medium",
       scale = 1,
       width = 72,
@@ -19,7 +19,7 @@ return
       shift = { 0.25, -0.5 },
 	  hr_version =
 	  {
-      filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk2-sheet.png",
+      filename = "__Rocket_Turrets__/graphics/entity/hr-rocket-mk2-sheet.png",
       priority = "medium",
       scale = 0.5,
       width = 144,
@@ -42,7 +42,7 @@ return
   layers = 
   {
     {
-      filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk3-sheet.png",
+      filename = "__Rocket_Turrets__/graphics/entity/rocket-mk3-sheet.png",
       priority = "medium",
       scale = 1,
       width = 72,
@@ -55,7 +55,7 @@ return
       shift = { 0.25, -0.5 },
 	  hr_version =
 	  {
-      filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk3-sheet.png",
+      filename = "__Rocket_Turrets__/graphics/entity/hr-rocket-mk3-sheet.png",
       priority = "medium",
       scale = 0.5,
       width = 144,
@@ -78,7 +78,7 @@ return
   layers = 
   {
     {
-      filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk4-sheet.png",
+      filename = "__Rocket_Turrets__/graphics/entity/rocket-mk4-sheet.png",
       priority = "medium",
       scale = 1,
       width = 72,
@@ -91,7 +91,7 @@ return
       shift = { 0.25, -0.5 },
 	  hr_version =
 	  {
-      filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk4-sheet.png",
+      filename = "__Rocket_Turrets__/graphics/entity/hr-rocket-mk4-sheet.png",
       priority = "medium",
       scale = 0.5,
       width = 144,
@@ -114,7 +114,7 @@ return
   layers = 
   {
     {
-      filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/rocket-mk5-sheet.png",
+      filename = "__Rocket_Turrets__/graphics/entity/rocket-mk5-sheet.png",
       priority = "medium",
       scale = 1,
       width = 72,
@@ -127,7 +127,7 @@ return
       shift = { 0.25, -0.5 },
 	  hr_version =
 	  {
-      filename = "__Rocket_Turrets__/integrations/bobplates/graphics/entity/hr-rocket-mk5-sheet.png",
+      filename = "__Rocket_Turrets__/graphics/entity/hr-rocket-mk5-sheet.png",
       priority = "medium",
       scale = 0.5,
       width = 144,
@@ -150,7 +150,7 @@ end
 rocket_mk2_entity = {
   type = "ammo-turret",
   name = "rocket-turret-mk2",
-  icon = "__Rocket_Turrets__/integrations/bobplates/graphics/icon/turret-rocket-mk2-icon.png",
+  icon = "__Rocket_Turrets__/graphics/icon/turret-rocket-mk2-icon.png",
   icon_size = 32,
   flags = {"placeable-player", "player-creation"},
   minable = {mining_time = 0.7, result = "rocket-turret-mk2"},
@@ -211,7 +211,7 @@ rocket_mk2_entity = {
 rocket_mk3_entity = {
   type = "ammo-turret",
   name = "rocket-turret-mk3",
-  icon = "__Rocket_Turrets__/integrations/bobplates/graphics/icon/turret-rocket-mk3-icon.png",
+  icon = "__Rocket_Turrets__/graphics/icon/turret-rocket-mk3-icon.png",
   icon_size = 32,
   flags = {"placeable-player", "player-creation"},
   minable = {mining_time = 0.7, result = "rocket-turret-mk3"},
@@ -272,7 +272,7 @@ rocket_mk3_entity = {
 rocket_mk4_entity = {
   type = "ammo-turret",
   name = "rocket-turret-mk4",
-  icon = "__Rocket_Turrets__/integrations/bobplates/graphics/icon/turret-rocket-mk4-icon.png",
+  icon = "__Rocket_Turrets__/graphics/icon/turret-rocket-mk4-icon.png",
   icon_size = 32,
   flags = {"placeable-player", "player-creation"},
   minable = {mining_time = 0.7, result = "rocket-turret-mk4"},
@@ -333,7 +333,7 @@ rocket_mk4_entity = {
 rocket_mk5_entity = {
   type = "ammo-turret",
   name = "rocket-turret-mk5",
-  icon = "__Rocket_Turrets__/integrations/bobplates/graphics/icon/turret-rocket-mk5-icon.png",
+  icon = "__Rocket_Turrets__/graphics/icon/turret-rocket-mk5-icon.png",
   icon_size = 32,
   flags = {"placeable-player", "player-creation"},
   minable = {mining_time = 0.7, result = "rocket-turret-mk5"},

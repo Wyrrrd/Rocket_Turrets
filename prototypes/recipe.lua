@@ -8,9 +8,9 @@ rocket_recipe = {
   ingredients =
   {
     {"rocket-launcher", 10},
-    {"iron-gear-wheel", 5},
+    {"iron-gear-wheel", 10},
     {"steel-plate", 20},
-    {"advanced-circuit", 15},
+    {"electronic-circuit", 20},
   },
   result = "rocket-turret",
 	order = "c-a"

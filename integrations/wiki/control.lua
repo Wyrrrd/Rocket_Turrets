@@ -1,8 +1,8 @@
-require("integrations.info.wiki.wiki")
+require("integrations.wiki.wiki")
 
 if script.active_mods["wiki"] then
   local initialize_wiki
-  if script.active_mods["bobplates"] then
+  if script.active_mods["bobwarfare"] then
     initialize_wiki = function()
       remote.call("wiki","register_mod_wiki",rocketturrets_bob_wiki)
     end
@@ -12,6 +12,6 @@ if script.active_mods["wiki"] then
     end
   end
     
-  script.on_init(function() initialize_wiki() end)
-  script.on_load(function() initialize_wiki() end) 
+  script.on_init(initialize_wiki)
+  script.on_load(initialize_wiki) 
 end
