@@ -15,7 +15,7 @@ rocket_tech = {
 	prerequisites =
 	{
 		"rocketry",
-		"turrets",
+		"gun-turret",
 		"steel-processing",
 	},
 	unit =
