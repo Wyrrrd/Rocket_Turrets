@@ -18,3 +18,4 @@ If you want to contribute by translating this mod, you can view the existing tra
 
 ### Credit
 - Thanks to [Kamsta99](https://mods.factorio.com/user/kamsta99) for the [original mod](https://mods.factorio.com/mod/RocketTurrets) and the [vanilla version](https://mods.factorio.com/mod/RocketTurretsNonBob).
+- Thanks to [Friendch](https://mods.factorio.com/user/Friendch) for the french translation.
