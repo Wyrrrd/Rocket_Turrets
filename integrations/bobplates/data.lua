@@ -1,9 +1,5 @@
 require("integrations.bobplates.ingredients")
 
-local add_prerequisite = function (tech, prereq)
-    table.insert(data.raw.technology[tech].prerequisites,prereq)
-end
-
 if mods["bobplates"] and mods["bobwarfare"] then
     -- if bobplates enabled, change tiered turret recipes and tech (if existing)
     

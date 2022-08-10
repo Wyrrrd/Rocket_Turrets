@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2022-08-10
+  Changes:
+    - Added tips&tricks page
+    - Removed integrations for Factorio Wiki Mod, Booktorio and Informatron
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2021-09-06
   Locale:
