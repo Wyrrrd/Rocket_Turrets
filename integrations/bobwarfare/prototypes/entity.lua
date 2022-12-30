@@ -286,7 +286,7 @@ rocket_mk4_entity = {
   dying_explosion = "medium-explosion",
   inventory_size = 2,
   automated_ammo_count = 10,
-  attacking_speed = 0.95,
+  attacking_speed = 0.095,
   
   folded_animation = rocket_mk4_sheet{direction_count = 4, line_length = 1},
   preparing_animation = rocket_mk4_sheet{direction_count = 4, line_length = 1},
