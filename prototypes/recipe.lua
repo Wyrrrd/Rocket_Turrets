@@ -7,7 +7,7 @@ rocket_recipe = {
   energy_required = 10,
   ingredients =
   {
-    {"rocket-launcher", 10},
+    {"rocket-launcher", 4},
     {"iron-gear-wheel", 10},
     {"steel-plate", 20},
     {"electronic-circuit", 20},
