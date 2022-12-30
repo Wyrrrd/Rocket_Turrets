@@ -20,7 +20,7 @@ rocket_tech = {
 	},
 	unit =
 	{
-		count = 75,
+		count = 120,
 		ingredients =
 		{
 			{"automation-science-pack", 1},
