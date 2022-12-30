@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 2022-12-30
+  Changes:
+    - Changed MK5 attacking speed typo, it shoots 10x slower now (thanks to Duck986)
+  Locale:
+    - Added russian locale (thanks to Duck986)
+    - Added technology descriptions to all languages (thanks to Duck986 and DeepL)
+    - Other small fixes
+---------------------------------------------------------------------------------------------------
 Version: 1.1.3
 Date: 2022-08-25
   Locale:
